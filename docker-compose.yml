@@ -1,0 +1,9 @@
+dotnetcore:
+  # image: ':latest'
+  build: .
+  restart: always
+  environment:
+  ports:
+    - '8081:5000'
+  volumes:
+    # - '/data/:/var/opt/gitlab'
