@@ -7,4 +7,4 @@ dotnetcore:
     - '8081:5000'
   command: CM.APP.API.dll
   #volumes:
-    # - '/data/:/var/opt/gitlab'
+    # - '/data/:/publish/data'
